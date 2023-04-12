@@ -24,7 +24,7 @@ jobs:
 
       - name: Download Firmware
         run: |
-          wget $FIRMWARE_URL -O openwrt.tar.gz
+          wget $FIRMWARE_URL -O op.tar.gz
 
       - name: Publish to Registry
         uses: elgohr/Publish-Docker-Github-Action@v5
