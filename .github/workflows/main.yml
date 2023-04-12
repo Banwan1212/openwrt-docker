@@ -8,7 +8,7 @@ on:
       - ".github/workflows/build.yml"
 
 env:
-  FIRMWARE_URL: "https://downloads.openwrt.org/releases/19.07.2/targets/x86/64/openwrt-19.07.2-x86-64-generic-rootfs.tar.gz"
+  FIRMWARE_URL: "https://downloads.openwrt.org/releases/22.03.3/targets/x86/64/openwrt-22.03.3-x86-64-generic-squashfs-rootfs.img.gz"
   REPOSITORY: wanuse/openwrt
   TAG: 23.04.1
 
