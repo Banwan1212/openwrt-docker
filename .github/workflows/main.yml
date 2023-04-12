@@ -9,8 +9,8 @@ on:
 
 env:
   FIRMWARE_URL: "https://downloads.openwrt.org/releases/19.07.2/targets/x86/64/openwrt-19.07.2-x86-64-generic-rootfs.tar.gz"
-  REPOSITORY: crazygit/openwrt-x86-64
-  TAG: 19.07.2
+  REPOSITORY: wanuse/openwrt
+  TAG: 23.04.1
 
 jobs:
   build:
