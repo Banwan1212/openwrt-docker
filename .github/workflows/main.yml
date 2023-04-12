@@ -1,11 +1,13 @@
 name: Build OpenWrt Docker x86-64 image
 
 on:
-  push:
-    branches:
-      - master
-    paths:
-      - ".github/workflows/build.yml"
+  repository_dispatch:
+  workflow_dispatch:
+    inputs:
+      ssh:
+        description: 'SSH connection to Actions'
+        required: false
+        default: 'true/false'
 
 env:
   FIRMWARE_URL: "https://downloads.openwrt.org/releases/22.03.3/targets/x86/64/openwrt-22.03.3-x86-64-generic-squashfs-rootfs.img.gz"
