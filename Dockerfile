@@ -1,4 +1,4 @@
 FROM scratch
 ADD op.tar.gz /
 EXPOSE 22 8011 80 443
-CMD [""/sbin/ash""]
+ENTRYPOINT ["/bin/sh" "-c" "/bin/sh"]
