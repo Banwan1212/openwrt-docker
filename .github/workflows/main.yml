@@ -27,7 +27,7 @@ jobs:
           wget $FIRMWARE_URL -O op.tar.gz
 
       - name: Publish to Registry
-        uses: elgohr/Publish-Docker-Github-Action@v5
+        uses: elgohr/Publish-Docker-Github-Action@main
         env:
           FIRMWARE: openwrt.tar.gz
         with:
