@@ -3,12 +3,7 @@ name: Build OpenWrt Docker x86-64 image
 on:
   repository_dispatch:
   workflow_dispatch:
-    inputs:
-      ssh:
-        description: 'SSH connection to Actions'
-        required: false
-        default: 'true/false'
-
+    
 env:
   FIRMWARE_URL: "https://github.com/Banwan1212/openwrt-docker/releases/download/v0.1/openwrt-x86-64-generic-rootfs.tar.gz"
   REPOSITORY: wanuse/openwrt
