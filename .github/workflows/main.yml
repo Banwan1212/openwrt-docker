@@ -1,4 +1,4 @@
-name: Build OpenWrt Docker x86-64 image
+name: up OpenWrt Docker x86-64-lede
 
 on:
   repository_dispatch:
