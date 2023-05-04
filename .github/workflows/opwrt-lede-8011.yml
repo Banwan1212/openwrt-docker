@@ -7,7 +7,7 @@ on:
 env:
   FIRMWARE_URL: "https://github.com/Banwan1212/openwrt-docker/releases/download/v0.1.2/openwrt-x86-64-generic-rootfs.tar.gz"
   REPOSITORY: wanuse/openwrt-x86-64
-  TAG: 23.04.1
+  TAG: v5
 
 jobs:
   build:
