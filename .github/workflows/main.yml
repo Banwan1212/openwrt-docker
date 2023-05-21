@@ -5,9 +5,9 @@ on:
   workflow_dispatch:
     
 env:
-  FIRMWARE_URL: "https://github.com/Banwan1212/openwrt-docker/releases/download/v0.1/openwrt-x86-64-generic-rootfs.tar.gz"
+  FIRMWARE_URL: "https://github.com/Banwan1212/openwrt-docker/releases/download/v1.1/openwrt-x86-64-generic-rootfs.tar.gz"
   REPOSITORY: wanuse/openwrt
-  TAG: 23.04.1
+  TAG: 22.03.5
 
 jobs:
   build:
